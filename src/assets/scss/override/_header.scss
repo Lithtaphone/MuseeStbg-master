@@ -1,4 +1,9 @@
-.headersection {
-  background-color: black;
-  margin: rem-calc(80);
+header{
+  background: black;
+}
+
+.headersection{
+  padding: rem-calc(80);
+  padding-left: 0;
+  padding-right: 0;
 }
