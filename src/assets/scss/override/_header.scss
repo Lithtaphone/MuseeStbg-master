@@ -1,9 +1,19 @@
 header{
-  background: black;
+  background: grey;
 }
 
 .headersection{
   padding: rem-calc(80);
   padding-left: 0;
   padding-right: 0;
+}
+
+
+nav{
+  background-color: black;
+}
+
+#header a{
+  color: white;
+  font-size: rem-calc(21);
 }

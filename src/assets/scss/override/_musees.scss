@@ -1,6 +1,17 @@
+#musees{
+  background-color: white;
+}
+
 figure{
   margin: 0;
   padding-bottom: rem-calc(35)
+}
+
+figcaption{
+  margin-top: -33px;
+  margin-left: 23px;
+  color: white;
+  font-size: rem-calc(18)
 }
 
 .museessection{
