@@ -6,7 +6,6 @@
   background-position: 50% 50%;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 720px;
 }
 
 .headersection{
@@ -38,6 +37,7 @@
 #slider{
   padding-top: rem-calc(230);
   padding-bottom: rem-calc(125);
+  min-height: 720px;
 
     h2{
       font-size: rem-calc(36);
