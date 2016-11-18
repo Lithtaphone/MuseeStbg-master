@@ -1,5 +1,10 @@
-header{
-  background: grey;
+#header{
+  background-image: url('../img/slide1.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .headersection{
@@ -8,10 +13,18 @@ header{
   padding-right: 0;
 }
 
-
-nav{
-  background-color: black;
+li:first-child{
+  background-color: rgba(0, 0, 0, 1);
 }
+
+li:nth-child(3){
+  background-color: rgba(79, 74, 63, 0.8);
+}
+
+li:nth-child(4){
+  background-color: rgba(115, 108, 96, 1);
+}
+
 
 #header a{
   color: white;
