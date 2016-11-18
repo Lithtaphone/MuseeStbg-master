@@ -1,8 +1,33 @@
-.footersection{
-  margin-top: rem-calc(45 80)
-}
+footer {
+    width: 100%;
+    min-height: rem-calc(133);
+    background-color: #343434;
+    padding-top:rem-calc(35);
+    color: #FFF;
 
-label{
-  font-size: rem-calc(16)
+    label{
+      color: #fff;
+    }
+    a{
+      color: #FFF;
+      font-size: rem-calc(14);
+    }
 
+    input[type=email]{
+      width: rem-calc(332);
+      height: rem-calc(25);
+      background-color: #000;
+      font-size: rem-calc(12);
+      color: #FFF;
+      padding: 0;
+      padding-left: rem-calc(10);
+      border: 0;
+    }
+
+    .button.hollow {
+    border: 1px solid #FFF;
+    color: #FFF;
+    margin: 0;
+    padding: rem-calc(5);
+    }
 }
